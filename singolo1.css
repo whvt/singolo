@@ -1,0 +1,100 @@
+html {
+    font-size:10px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato Regular', sans-serif;
+    font-size:1.6 rem;
+    background-color: #fefefe;
+}
+
+.header-star {
+color:#fefefe; /* поменять цвет звездочки */
+}
+
+ul {
+    margin:0;
+    padding:0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+h1{
+    margin: 0;
+}
+
+header {
+    padding: 34px 0 30px;
+    background-color: #2d303a;
+    border-bottom: solid 6px #323746;
+
+}
+
+.hSingolo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -.55px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+span {
+    color: #f06c64;
+}
+
+ul {
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 700;
+
+    color: #fff;
+    list-style: none;
+    text-transform: uppercase;
+}
+ /* ПОПРАВИТЬ КЛАССЫ ДЛЯ ЭЛЕМЕНТОВ СПИСКА */
+li {    
+    margin-right: 29px;
+    cursor: pointer;
+    transition: color .2s linear;
+    position: relative;
+}
+
+li:after {
+    content: "";
+    background-color: #434759;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 50%;
+    right: -16px;
+
+    transform: translateY(-50%);
+}
+
+li:hover {
+    color: #f06c64;
+    text-decoration: underline;
+}
+
+li:last-child {
+margin-right:0;
+}
+
+li:last-child::after {
+    width:0;
+}
+
+.nav_item_activated {
+    color: #f06c64;
+}
