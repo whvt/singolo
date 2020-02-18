@@ -1,22 +1,32 @@
 html {
-    font-size:10px;
+    font-size: 10px;
 }
 
 body {
     margin: 0;
     font-family: 'Lato Regular', sans-serif;
-    font-size:1.6 rem;
+    font-size: 1.6rem;
     background-color: #fefefe;
 }
 
-.header-star {
-color:#fefefe; /* поменять цвет звездочки */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
 }
 
-ul {
-    margin:0;
-    padding:0;
+h1{
+    margin: 0;
+    color:#fff;
 }
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
 
 .container {
     width: 100%;
@@ -25,18 +35,20 @@ ul {
     padding: 0 40px;
 }
 
-h1{
-    margin: 0;
-}
 
 header {
     padding: 34px 0 30px;
     background-color: #2d303a;
     border-bottom: solid 6px #323746;
-
 }
 
-.hSingolo {
+.hinner{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.hsingolo {
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 1;
@@ -44,14 +56,13 @@ header {
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
-
 }
 
-span {
+ span {
     color: #f06c64;
 }
 
-ul {
+.ul_nav {
     display: flex;
     font-size: 1.2rem;
     font-weight: 700;
@@ -60,15 +71,15 @@ ul {
     list-style: none;
     text-transform: uppercase;
 }
- /* ПОПРАВИТЬ КЛАССЫ ДЛЯ ЭЛЕМЕНТОВ СПИСКА */
-li {    
+
+.nav_item {
     margin-right: 29px;
     cursor: pointer;
     transition: color .2s linear;
     position: relative;
 }
 
-li:after {
+.nav_item::after {
     content: "";
     background-color: #434759;
     width: 3px;
@@ -80,21 +91,26 @@ li:after {
     right: -16px;
 
     transform: translateY(-50%);
+
 }
 
-li:hover {
+.nav_item:hover {
     color: #f06c64;
     text-decoration: underline;
 }
 
-li:last-child {
-margin-right:0;
+.nav_item:last-child {
+    margin-right: 0;
 }
 
-li:last-child::after {
-    width:0;
+.nav_item:last-child::after {
+    width: 0;
 }
 
 .nav_item_activated {
     color: #f06c64;
+}
+
+p {
+    margin: 0;
 }
