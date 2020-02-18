@@ -58,9 +58,12 @@ header {
     cursor: pointer;
 }
 
- span {
+
+span {
     color: #f06c64;
 }
+
+
 
 .ul_nav {
     display: flex;
