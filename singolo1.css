@@ -58,7 +58,7 @@ ul {
     letter-spacing: -.55px;
     color: #fff;
     text-transform: uppercase;
-    cursor: pointer;
+    cursor: pointer;    
 }
 
 
@@ -184,7 +184,7 @@ ul {
     color: #767e9e;
     line-height: 30px;
     text-align: justify;
-    letter-spacing: -.5px;
+    letter-spacing: -.35px;
 }
 
 .services-inner {
