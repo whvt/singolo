@@ -39,16 +39,16 @@ ul {
 }
 
 /* header */
-.header {
+.header {        
     padding: 34px 0 30px;
     background-color: #2d303a;
     border-bottom: solid 6px #323746;
 }
 
-.header_inner{
+.header_inner{        
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: baseline;   
 }
 
 .header_logo {
@@ -168,7 +168,8 @@ ul {
 
 
 .services-title {
-    margin-bottom: 16px;
+    margin-top: -5px;
+    margin-bottom: 20px;
     font-family: 'Lato Black', sans-serif;
     font-size: 3rem;
     font-weight: 400;
@@ -177,7 +178,7 @@ ul {
 }
 
 .services-subtitle {
-    margin-bottom: 43px;
+    margin-bottom: 41px;
 
     font-size: 1.8rem;
     font-weight: 300;
@@ -199,7 +200,7 @@ ul {
     width: 33%;
     max-width: 299px;
     max-height: 93px;
-    padding-left: 79px;
+    padding-left: 80px;
 
     overflow: hidden;
 
