@@ -649,7 +649,7 @@ textarea {
 }
 
 .form-info__address {
-    background: transparent url("/assets/images/location.png") no-repeat 3px;
+    background: transparent url("./assets/images/location.png") no-repeat 3px;
     padding-left: 23px;
     margin-top: 25px;
     letter-spacing: -0.1px;
@@ -659,14 +659,14 @@ textarea {
 } 
 
 .form-info__phone {
-    background: transparent url("/assets/images/phone-icon.png") no-repeat left center;
+    background: transparent url("./assets/images/phone-icon.png") no-repeat left center;
     padding-left: 23px;
     line-height: 20px;
     cursor: pointer;
 }
 
 .form-info__email {
-    background: transparent url("/assets/images/mail.png") no-repeat left 5px;
+    background: transparent url("./assets/images/mail.png") no-repeat left 5px;
     padding-left: 23px;
     cursor: pointer;
 }    
@@ -701,3 +701,4 @@ footer .wrapper {
     color: #f0d8d9;
     cursor: pointer;
 }
+
